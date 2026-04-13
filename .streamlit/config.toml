@@ -1,0 +1,21 @@
+# Levanzo Notte — Streamlit Theme
+# Drop this file into your project at .streamlit/config.toml
+# Based on the Levanzo Notte design system: https://github.com/thejohnnyxu/levanzo-ui
+
+[theme]
+
+# ── Base ──────────────────────────────────────────────────────
+base = "dark"
+
+# ── Backgrounds ───────────────────────────────────────────────
+backgroundColor        = "#1E1A14"   # --paper  (main content area)
+secondaryBackgroundColor = "#1A1710" # --cream  (sidebar, expanders, code blocks)
+
+# ── Text ──────────────────────────────────────────────────────
+textColor              = "#CEBEAA"   # --ink-soft (body text)
+
+# ── Primary accent (buttons, sliders, checkboxes, progress) ───
+primaryColor           = "#C07048"   # --terracotta
+
+# ── Font ──────────────────────────────────────────────────────
+font = "sans serif"
