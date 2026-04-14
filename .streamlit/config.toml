@@ -1,21 +1,21 @@
 # ── DARK THEME ─────-─────────────────────────────────────────
-#[theme]
+[theme]
 
 # ── Base ──────────────────────────────────────────────────────
-#base = "dark"
+base = "dark"
 
 # ── Backgrounds ───────────────────────────────────────────────
-#backgroundColor        = "#1E1A14"   # --paper  (main content area)
-#secondaryBackgroundColor = "#1A1710" # --cream  (sidebar, expanders, code blocks)
+backgroundColor        = "#1E1A14"   # --paper  (main content area)
+secondaryBackgroundColor = "#1A1710" # --cream  (sidebar, expanders, code blocks)
 
 # ── Text ──────────────────────────────────────────────────────
-#textColor              = "#CEBEAA"   # --ink-soft (body text)
+textColor              = "#CEBEAA"   # --ink-soft (body text)
 
 # ── Primary accent (buttons, sliders, checkboxes, progress) ───
-#primaryColor           = "#C07048"   # --terracotta
+primaryColor           = "#C07048"   # --terracotta
 
 # ── Font ──────────────────────────────────────────────────────
-#font = "sans serif"
+font = "sans serif"
 
 # ── LIGHT THEME ───────────────-───────────────────────────────
 
@@ -26,17 +26,17 @@
 [theme]
 
 # ── Base ──────────────────────────────────────────────────────
-base = "light"
+#base = "light"
 
 # ── Backgrounds ───────────────────────────────────────────────
-backgroundColor          = "#D8D2C8"   # warm stone — matches VSCode chrome floor
-secondaryBackgroundColor = "#C8C2B6"   # deeper stone — sidebar, expanders, code blocks
+#backgroundColor          = "#D8D2C8"   # warm stone — matches VSCode chrome floor
+#secondaryBackgroundColor = "#C8C2B6"   # deeper stone — sidebar, expanders, code blocks
 
 # ── Text ──────────────────────────────────────────────────────
-textColor                = "#1E1410"   # deep espresso — maximum contrast
+#textColor                = "#1E1410"   # deep espresso — maximum contrast
 
 # ── Primary accent (buttons, sliders, checkboxes, progress) ───
-primaryColor             = "#A85C38"   # --terracotta
+#primaryColor             = "#A85C38"   # --terracotta
 
 # ── Font ──────────────────────────────────────────────────────
-font = "sans serif"
+#font = "sans serif"
