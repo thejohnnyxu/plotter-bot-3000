@@ -1,21 +1,42 @@
-# Levanzo Notte — Streamlit Theme
+# ── DARK THEME ─────-─────────────────────────────────────────
+#[theme]
+
+# ── Base ──────────────────────────────────────────────────────
+#base = "dark"
+
+# ── Backgrounds ───────────────────────────────────────────────
+#backgroundColor        = "#1E1A14"   # --paper  (main content area)
+#secondaryBackgroundColor = "#1A1710" # --cream  (sidebar, expanders, code blocks)
+
+# ── Text ──────────────────────────────────────────────────────
+#textColor              = "#CEBEAA"   # --ink-soft (body text)
+
+# ── Primary accent (buttons, sliders, checkboxes, progress) ───
+#primaryColor           = "#C07048"   # --terracotta
+
+# ── Font ──────────────────────────────────────────────────────
+#font = "sans serif"
+
+# ── LIGHT THEME ───────────────-───────────────────────────────
+
+# Levanzo — Streamlit Theme (Light / Day)
 # Drop this file into your project at .streamlit/config.toml
-# Based on the Levanzo Notte design system: https://github.com/thejohnnyxu/levanzo-ui
+# Based on the Levanzo design system: https://github.com/thejohnnyxu/levanzo-ui
 
 [theme]
 
 # ── Base ──────────────────────────────────────────────────────
-base = "dark"
+base = "light"
 
 # ── Backgrounds ───────────────────────────────────────────────
-backgroundColor        = "#1E1A14"   # --paper  (main content area)
-secondaryBackgroundColor = "#1A1710" # --cream  (sidebar, expanders, code blocks)
+backgroundColor          = "#D8D2C8"   # warm stone — matches VSCode chrome floor
+secondaryBackgroundColor = "#C8C2B6"   # deeper stone — sidebar, expanders, code blocks
 
 # ── Text ──────────────────────────────────────────────────────
-textColor              = "#CEBEAA"   # --ink-soft (body text)
+textColor                = "#1E1410"   # deep espresso — maximum contrast
 
 # ── Primary accent (buttons, sliders, checkboxes, progress) ───
-primaryColor           = "#C07048"   # --terracotta
+primaryColor             = "#A85C38"   # --terracotta
 
 # ── Font ──────────────────────────────────────────────────────
 font = "sans serif"
