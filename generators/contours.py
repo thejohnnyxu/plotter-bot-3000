@@ -7,3 +7,4 @@ def generate_contours(field, levels):
     for threshold in thresholds:
         contours.extend(find_contours(field, threshold))
     return contours
+    

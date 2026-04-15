@@ -23,7 +23,7 @@ font = "sans serif"
 # Drop this file into your project at .streamlit/config.toml
 # Based on the Levanzo design system: https://github.com/thejohnnyxu/levanzo-ui
 
-[theme]
+#[theme]
 
 # ── Base ──────────────────────────────────────────────────────
 #base = "light"
