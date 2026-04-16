@@ -11,6 +11,7 @@ st.title("🤖 Plotter Bot 3000")
 #levanzo colors
 paper = "#EEE8DC"
 ink = "#E4D8C0"
+ink_mid = "#CEBEAA"
 
 # left nav
 favicon = "images/levanzo-16.svg"
@@ -47,7 +48,7 @@ ax.set_facecolor("black")
 
 # the color is applied when we plot
 for contour in contours.generate_contours(field, levels):
-    ax.plot(contour[:,1], contour[:,0], color=ink)  # x coords, y coords
+    ax.plot(contour[:,1], contour[:,0], color=ink_mid)  # x coords, y coords
 
 
 with col2:
