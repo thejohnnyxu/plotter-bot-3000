@@ -2,6 +2,7 @@ from rich import traceback
 traceback.install()
 import streamlit as st
 from generators import noise_field, noise_preview, contours
+from exporters import svg, vpype
 from matplotlib import pyplot as plt
 
 st.title("🤖 Plotter Bot 3000")
@@ -47,7 +48,8 @@ ax.set_facecolor("black")
 # we are plotting each point in the contours array (how does it smooth the lines and make curves?)
 
 # the color is applied when we plot
-for contour in contours.generate_contours(field, levels):
+contour_calculated = contours.generate_contours(field, levels)
+for contour in contour_calculated:
     ax.plot(contour[:,1], contour[:,0], color=ink_mid)  # x coords, y coords
 
 
@@ -59,4 +61,7 @@ with col2:
     st.write(f"Seed: {seed}")
     st.write(f"Levels: {levels}")
     st.write(f"Scale: {scale}")    
-    
+
+    if st.button("Generate"):
+        svg.export_svg(contour_calculated, "input_svg.svg")
+        vpype.optimize("input_svg.svg", "output.svg")
