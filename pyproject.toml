@@ -8,6 +8,7 @@ dependencies = [
     "matplotlib>=3.10.8",
     "noise>=1.2.2",
     "numpy>=2.4.4",
+    "plotly>=6.7.0",
     "rich>=15.0.0",
     "scikit-image>=0.26.0",
     "streamlit>=1.56.0",
